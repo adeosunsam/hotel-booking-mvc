@@ -1,4 +1,4 @@
-name: Hotel Management
+name: Hotel Management Mvc
 on:
   pull_request:
     branches: [ master ]
