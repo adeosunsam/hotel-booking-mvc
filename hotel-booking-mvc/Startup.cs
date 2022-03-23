@@ -30,6 +30,7 @@ namespace hotel_booking_mvc
 
             // configures interfaces for dependency injection
             services.ConfigureDependencies(Configuration);
+
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
             services.AddSession();
